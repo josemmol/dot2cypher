@@ -94,8 +94,10 @@ def main():
 		eprint("File %s not exist" % opts.input)
 		sys.exit(1)
         
-
-	dot2cypher(opts.input, opts.output)
+	try:
+		dot2cypher(opts.input, opts.output)
+	except:
+		eprint("Input file is not format dot")
 	
 def eprint(text):
     sys.stderr.write("%s\n" % text)

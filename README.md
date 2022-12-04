@@ -14,7 +14,7 @@ pip install getopts
 ```
 
 
-```
+```pi
 pipdeptree --packages ipykernel --graph-output dot > ipykernel-dependecies.dot
 pipdeptree --packages ipykernel --graph-output png > ipykernel-dependecies.png
 ```
