@@ -30,12 +30,12 @@ pipdeptree --packages ipykernel --graph-output dot > ipykernel-dependecies.dot
 pipdeptree --packages ipykernel --graph-output png > ipykernel-dependecies.png
 ```
 
-Example usuage dot2chpher
+Example usuage dot2chpher.
 ```
 python dot2cypher.py -i ipykernel-dependecies.png -o ipykernel-dependecies.cy
 ```
 
-# References
+## References
 
 https://pypi.org/project/getopts/
 
