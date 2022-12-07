@@ -66,6 +66,5 @@ CREATE
 (nstackdata)-[:dependency {label:'any'}]->(nexecuting),
 (nasttokens)-[:dependency {label:'any'}]->(nsix),
 (npexpect)-[:dependency {label:'">=0.5"'}]->(nptyprocess),
-(njedi)-[:dependency {label:'">=0.8.0,<0.9.0"'}]->(nparso),
-
+(njedi)-[:dependency {label:'">=0.8.0,<0.9.0"'}]->(nparso)
 
